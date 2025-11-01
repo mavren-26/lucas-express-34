@@ -1,0 +1,5 @@
+2️⃣ Middleware Logger
+
+Goal: Log every incoming request’s method, URL, and time.
+
+Concepts: Middleware, next() function.

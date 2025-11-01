@@ -1,0 +1,5 @@
+5️⃣ Authentication with JWT
+
+Goal: Implement login and protected routes using JSON Web Tokens.
+
+Concepts: JWT, middleware, authentication.
