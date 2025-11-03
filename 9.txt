@@ -1,0 +1,26 @@
+🔐 3️⃣ JWT Authentication System
+
+Concepts: Express Middleware, JWT, Authentication
+
+Problem:
+Implement JWT-based authentication in an Express app.
+
+Requirements:
+
+Create two routes:
+
+POST /login → Accepts username & password, returns JWT token.
+
+GET /dashboard → Protected route; accessible only with a valid JWT.
+
+If JWT is invalid or expired, respond with:
+
+{
+  "error": "Access denied. Invalid or missing token."
+}
+
+
+Token should expire in 1 hour.
+
+Hint:
+Use jsonwebtoken package and express.json() middleware for parsing requests.

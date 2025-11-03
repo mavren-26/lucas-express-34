@@ -1,0 +1,24 @@
+⚙️ 2️⃣ File Upload with Validation
+
+Concepts: Express Router, Multer, Middleware, Error Handling
+
+Problem:
+Create an Express API that allows users to upload a profile picture.
+You must:
+
+Accept only .jpg, .jpeg, or .png files.
+
+Reject files larger than 2MB.
+
+Store the uploaded file inside an uploads/ folder.
+
+Return a JSON response like:
+
+{
+  "message": "Upload successful",
+  "filename": "profile_1234.png"
+}
+
+
+Hint:
+Use multer for handling multipart form-data and create custom validation logic.

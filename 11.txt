@@ -1,0 +1,18 @@
+🚀 1️⃣ Rate Limiting Middleware
+
+Concepts: Express Middleware, Request Handling, Caching (Map/Redis)
+
+Problem:
+Build a custom rate-limiter in Express.js that restricts each user (based on IP) to a maximum of 100 requests per 15 minutes.
+
+Requirements:
+
+If a user exceeds the limit, respond with status 429 (Too Many Requests) and a message like:
+"Rate limit exceeded. Try again after 15 minutes."
+
+Maintain count using an in-memory store (like Map) or a Redis store.
+
+Apply it globally to all routes.
+
+Hint:
+Use middleware that checks timestamps and counts per IP before proceeding.
