@@ -1,0 +1,7 @@
+⚙️ 1️⃣ Rate Limiter Middleware
+
+Problem:
+Build an Express middleware that limits each user (by IP) to 5 requests per minute.
+If they exceed it, return a 429 “Too Many Requests” error.
+
+Concepts: Middleware, Request handling, Timers.

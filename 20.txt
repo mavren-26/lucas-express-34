@@ -1,0 +1,12 @@
+🧩 4️⃣ Chained Middleware Authentication
+
+Problem:
+Create a chain of middlewares:
+
+Check API key header.
+
+Verify user role is "admin".
+
+Finally send "Access granted" if both pass.
+
+Concepts: Middleware chaining, headers, role-based auth

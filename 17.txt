@@ -1,0 +1,7 @@
+📦 2️⃣ Cache Middleware for API
+
+Problem:
+Implement caching for an API route /data.
+If data is already fetched, return from cache instead of making a new call every time.
+
+Concepts: Middleware, API optimization, caching in-memory.

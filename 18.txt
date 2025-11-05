@@ -1,0 +1,7 @@
+🧩 2️⃣ Async Retry API Request
+
+Problem:
+Create an endpoint /retry that calls a fake API which randomly fails.
+Retry up to 3 times before sending an error.
+
+Concepts: Async/await, retry logic, error handling

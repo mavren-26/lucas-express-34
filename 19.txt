@@ -1,0 +1,7 @@
+🧩 3️⃣ Validate User JSON Middleware
+
+Problem:
+Create middleware that checks if the incoming POST /user request has all fields:
+name, email, age. If missing, return a 400 Bad Request.
+
+Concepts: Middleware, body validation, error response
