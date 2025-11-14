@@ -1,0 +1,33 @@
+✅ Problem 2: Build a User Authentication Middleware
+Problem Statement
+
+Create an Express.js server that restricts access to certain routes using a custom authentication middleware.
+
+✔️ Requirements
+
+Create a middleware authMiddleware that:
+
+Checks for header:
+Authorization: Bearer SECRET123
+
+If the token is missing or wrong → return 401 Unauthorized
+
+Public Route:
+
+GET /public → returns "Welcome to the public API"
+
+Protected Route:
+
+GET /dashboard → only accessible if token is correct
+
+Returns user dashboard data like:
+
+{ "user": "John Doe", "role": "admin" }
+
+✔️ Constraints
+
+No database
+
+Only header-based auth
+
+Use Express.js middleware structure

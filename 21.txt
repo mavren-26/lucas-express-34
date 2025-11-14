@@ -1,0 +1,39 @@
+✅ Problem 1: Build a REST API for a Movie Database
+Problem Statement
+
+You must build a simple Movie REST API using Express.js.
+
+✔️ Requirements
+
+Create the following endpoints:
+
+GET /movies
+
+Returns all movies.
+
+POST /movies
+
+Adds a new movie.
+
+Body fields:
+
+{ "title": "string", "year": number, "rating": number }
+
+
+DELETE /movies/:id
+
+Deletes a movie by ID.
+
+✔️ Constraints
+
+Store data in an in-memory array
+
+Validate that title is not empty
+
+Year should be between 1900 and 2025
+
+Rating between 1 and 10
+
+✔️ Output
+
+JSON response with movie list or status messages.
