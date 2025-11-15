@@ -1,0 +1,17 @@
+🚀 Problem 2 — Upload Files Using Multer + Validate File Type
+📝 Problem Statement:
+
+Create an Express API that:
+
+Accepts file uploads using multer.
+
+Only allows images (jpg, jpeg, png).
+
+Rejects any other file with status 400 and message:
+{ error: "Invalid file type" }
+
+Upload route should be:
+POST /upload
+
+Successfully upload should return:
+{ success: true, filename: "..." }

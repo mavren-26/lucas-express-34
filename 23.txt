@@ -1,0 +1,23 @@
+🚀 Problem 1 — Build a Request Rate Limiter Middleware (Express + Custom Logic)
+📝 Problem Statement:
+
+Create an Express server and implement a custom rate limiter middleware without using any external libraries.
+
+Requirements:
+
+A user (identified by IP) can make max 5 requests per minute.
+
+If they exceed the limit:
+
+Return status 429
+
+Return { error: "Too many requests" }
+
+Reset counters every minute.
+
+Apply middleware only to routes beginning with /api.
+
+🔥 Expected Output Example
+GET /api/data  → allowed  
+GET /api/data  → allowed  
+6th request → { error: "Too many requests" }
