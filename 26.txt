@@ -1,0 +1,19 @@
+✅ Problem 2 — Build a Pagination API for Large Data (Query Params)
+Problem Statement
+
+You need to build an API:
+
+GET /products?page=2&limit=5
+
+
+Should return:
+
+Products from the correct page
+
+Metadata:
+
+currentPage
+
+totalPages
+
+totalItems

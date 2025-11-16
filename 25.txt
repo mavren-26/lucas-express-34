@@ -1,0 +1,21 @@
+✅ Problem 1 — Build a Custom Middleware to Log Request Time & Route
+Problem Statement
+
+Create an Express middleware that:
+
+Logs:
+
+HTTP method (GET, POST, etc.)
+
+Route URL (/login, /users)
+
+Time taken to process the request (in ms)
+
+Should log after the request completes.
+
+Apply the middleware globally.
+
+Your output should look like:
+
+POST /login  -  12ms
+GET /profile -  3ms

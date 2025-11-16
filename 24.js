@@ -35,6 +35,6 @@ app.post("/upload", (req, res) => {
       filename: req.file.filename,
     });
   });
-});
+});2
 
 app.listen(3000, () => console.log("Server running on 3000"));
