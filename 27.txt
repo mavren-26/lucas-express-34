@@ -1,0 +1,26 @@
+✅ Problem 1: Rate-Limited File Upload API
+
+Build an Express.js API that allows users to upload image files, but with the following constraints:
+
+Only files of type jpg / png are allowed.
+
+Maximum file size = 2 MB.
+
+A single user (identified by userId in headers) can upload only 5 files per hour.
+
+If the limit is exceeded, return HTTP status:
+429 Too Many Requests
+
+Store uploaded files in a folder named uploads/.
+
+🎯 Tasks
+
+Create Express server
+
+Implement multer for file uploads
+
+Implement custom rate-limiting middleware
+
+Validate file size & type
+
+Return JSON responses

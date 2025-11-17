@@ -1,0 +1,37 @@
+✅ Problem 2: OTP Login System with Session Timeout
+Build an Express.js server that handles OTP-based login.
+It should work as follows:
+
+Step 1: User requests OTP
+
+POST /auth/send-otp
+
+Input: { phone: "+911234567890" }
+
+Generate a 6-digit OTP
+
+Store OTP in memory for that user
+
+OTP expires after 2 minutes
+
+Return: { message: "OTP sent" }
+
+Step 2: User verifies OTP
+
+POST /auth/verify-otp
+
+Input: { phone, otp }
+
+If OTP is correct & not expired → generate a session token
+
+Session lasts only 15 minutes
+
+Return: { token: "abc123" }
+
+Step 3: Protected Route
+
+GET /profile
+
+Requires valid session token
+
+If token expired → return 401
